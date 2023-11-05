@@ -4,11 +4,11 @@
     "SQL_DIALECT": "mysql",
     "SQL_LOGGING": "true",
     "DATABASE_HOST": "sql.freedb.tech",
-    "DATABASE_PORT": 3306,
+    "DATABASE_PORT": "3306",
     "DATABASE_USER": "freedb_Valery",
     "DATABASE_PASSWORD": "a8FDYyX95E%55qU",
     "DATABASE_NAME": "freedb_shop_next",
-    "PORT": 3000
+    "PORT": "3000"
   },
   "builds": [
     {
