@@ -2,7 +2,7 @@
   "version": 2,
   "env": {
     "SQL_DIALECT": "mysql",
-    "SQL_LOGGING": true,
+    "SQL_LOGGING": "true",
     "DATABASE_HOST": "sql.freedb.tech",
     "DATABASE_PORT": 3306,
     "DATABASE_USER": "freedb_Valery",
