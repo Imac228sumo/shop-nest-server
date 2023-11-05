@@ -19,15 +19,15 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin: ['http://localhost:3001'],
+    origin: ['http://localhost:3001', 'https://shop-next-client.vercel.app/'],
   });
 
   const config = new DocumentBuilder()
-  .setTitle('Server shop')
-  .setDescription('api documentation')
-  .setVersion('1.0')
-  .addTag('api')
-  .build();
+    .setTitle('Server shop')
+    .setDescription('api documentation')
+    .setVersion('1.0')
+    .addTag('api')
+    .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('swagger', app, document);
 
